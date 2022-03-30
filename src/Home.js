@@ -6,6 +6,7 @@ export default function Home() {
       <Link to="/birthday">Birthday Reminder</Link>
       <Link to="/tours">Tours</Link>
       <Link to="/reviews">Reviews</Link>
+      <Link to="/accordion">Accordion</Link>
     </>
   );
 }
