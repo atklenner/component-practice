@@ -9,7 +9,7 @@ export default function Accordion() {
         <h1 className={styles.title}>Questions And Answers About Login</h1>
         <div className={styles.questions}>
           {questions.map((question) => {
-            return <Question {...question} />;
+            return <Question {...question} key={question.id} />;
           })}
         </div>
       </div>
