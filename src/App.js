@@ -1,4 +1,3 @@
-import "bulma/css/bulma.min.css";
 import BirthdayReminder from "./pages/BirthdayReminder/BirthdayReminder";
 import Tours from "./pages/Tours/Tours";
 import Reviews from "./pages/Reviews/Reviews";

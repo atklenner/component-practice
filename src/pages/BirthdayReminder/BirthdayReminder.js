@@ -2,6 +2,7 @@ import { data } from "./data";
 import { useState } from "react";
 import Person from "./components/Person";
 import ClearButton from "./components/ClearButton";
+import styles from ".//BirthdayReminder.module.css";
 
 export default function BirthdayReminder() {
   const [persons, setPersons] = useState(data);
@@ -11,13 +12,9 @@ export default function BirthdayReminder() {
   }
 
   return (
-    <div className="container my-auto">
-      <div className="card">
-        <div className="card-header">
-          <div className="card-header-title">
-            <h1 className="title is-3">{persons.length} birthdays today</h1>
-          </div>
-        </div>
+    <div className={styles.wrapper}>
+      <div className={styles.container}>
+        <h1 className={styles.title}>{persons.length} birthdays today</h1>
         {persons.map((person) => {
           return <Person person={person} key={person.id} />;
         })}

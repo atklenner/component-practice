@@ -1,20 +1,16 @@
+import styles from "./Person.module.css";
+
 export default function Person({ person }) {
   return (
-    <div className="card-content">
-      <div className="media">
-        <div className="media-content">
-          <figure className="image is-64x64">
-            <img
-              src={"https://bulma.io/images/placeholders/64x64.png"}
-              alt="what an ugly person"
-              className="is-rounded"
-            />
-          </figure>
-        </div>
-        <div className="media-content">
-          <p className="title is-6">{person.name}</p>
-          <p className="subtitle is-6">{person.age} years</p>
-        </div>
+    <div className={styles.card}>
+      <img
+        src={"https://bulma.io/images/placeholders/64x64.png"}
+        alt="what an ugly person"
+        className={styles.image}
+      />
+      <div className={styles.content}>
+        <p className={styles.title}>{person.name}</p>
+        <p className={styles.subtitle}>{person.age} years</p>
       </div>
     </div>
   );
