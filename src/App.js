@@ -4,6 +4,7 @@ import Reviews from "./pages/Reviews/Reviews";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Accordion from "./pages/Accordion/Accordion";
+import Menu from "./pages/Menu/Menu";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/tours" element={<Tours />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/accordion" element={<Accordion />} />
+        <Route path="/menu" element={<Menu />} />
       </Routes>
     </>
   );

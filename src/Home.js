@@ -7,6 +7,7 @@ export default function Home() {
       <Link to="/tours">Tours</Link>
       <Link to="/reviews">Reviews</Link>
       <Link to="/accordion">Accordion</Link>
+      <Link to="/menu">Menu</Link>
     </>
   );
 }

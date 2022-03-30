@@ -29,7 +29,7 @@ export default function Reviews() {
         </div>
         <div className={styles.review}>
           <div className={styles.image}>
-            <img src={image} alt="No one is beautiful" />
+            <img src={image} alt="No one is beautiful" className={styles.img} />
           </div>
           <h2>{name}</h2>
           <h3>{job}</h3>

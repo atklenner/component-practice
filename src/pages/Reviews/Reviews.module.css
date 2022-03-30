@@ -33,7 +33,7 @@ h1::after {
   margin-bottom: 1em;
 }
 
-img {
+.img {
   height: 150px;
   width: 150px;
   object-fit: cover;
