@@ -4,5 +4,6 @@ import Menu from "./Menu/Menu";
 import Reviews from "./Reviews/Reviews";
 import Tabs from "./Tabs/Tabs";
 import Tours from "./Tours/Tours";
+import Slider from "./Slider/Slider";
 
-export { Accordion, BirthdayReminder, Menu, Reviews, Tabs, Tours };
+export { Accordion, BirthdayReminder, Menu, Reviews, Tabs, Tours, Slider };
