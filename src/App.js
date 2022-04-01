@@ -1,10 +1,13 @@
-import BirthdayReminder from "./pages/BirthdayReminder/BirthdayReminder";
-import Tours from "./pages/Tours/Tours";
-import Reviews from "./pages/Reviews/Reviews";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
-import Accordion from "./pages/Accordion/Accordion";
-import Menu from "./pages/Menu/Menu";
+import {
+  BirthdayReminder,
+  Tours,
+  Reviews,
+  Accordion,
+  Menu,
+  Tabs,
+} from "./pages/index";
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/tabs" element={<Tabs />} />
       </Routes>
     </>
   );
