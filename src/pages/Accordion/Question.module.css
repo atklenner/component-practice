@@ -22,9 +22,10 @@
 }
 
 .showBtn {
-  border-radius: 50%;
+  border-radius: 100px;
   background-color: pink;
-  padding: 0.5em;
+  height: 32px;
+  width: 32px;
 }
 
 .body {

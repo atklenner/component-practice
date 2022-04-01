@@ -1,6 +1,7 @@
 import reviews from "./data";
 import styles from "./Reviews.module.css";
 import { useState } from "react";
+import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
 export default function Reviews() {
   const [value, setValue] = useState(0);
@@ -36,10 +37,10 @@ export default function Reviews() {
           <p>{text}</p>
           <div className={styles.buttons}>
             <button onClick={() => changeValue(-1)} className={styles.left}>
-              {"<"}
+              <FaAngleLeft />
             </button>
             <button onClick={() => changeValue(1)} className={styles.right}>
-              {">"}
+              <FaAngleRight />
             </button>
           </div>
           <button onClick={randomValue} className={styles.surprise}>
