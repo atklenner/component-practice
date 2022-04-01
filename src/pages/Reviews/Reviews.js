@@ -25,16 +25,16 @@ export default function Reviews() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <div className={styles.title}>
-          <h1>Reviews</h1>
+        <div>
+          <h1 className={styles.title}>Reviews</h1>
         </div>
         <div className={styles.review}>
           <div className={styles.image}>
             <img src={image} alt="No one is beautiful" className={styles.img} />
           </div>
-          <h2>{name}</h2>
-          <h3>{job}</h3>
-          <p>{text}</p>
+          <h2 className={styles.h2}>{name}</h2>
+          <h3 className={styles.h3}>{job}</h3>
+          <p className={styles.p}>{text}</p>
           <div className={styles.buttons}>
             <button onClick={() => changeValue(-1)} className={styles.left}>
               <FaAngleLeft />

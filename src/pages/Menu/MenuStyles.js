@@ -42,6 +42,7 @@ export const Categories = styled.div`
 export const Category = styled.button`
   padding: 0.5em 1em;
   border-radius: 5px;
+  border: none;
 `;
 
 export const Items = styled.div`
