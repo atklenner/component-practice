@@ -8,6 +8,7 @@ import {
   Menu,
   Tabs,
   Slider,
+  Lorem,
 } from "./pages/index";
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
         <Route path="/accordion" element={<Accordion />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/tabs" element={<Tabs />} />
-        <Route path="slider" element={<Slider />} />
+        <Route path="/slider" element={<Slider />} />
+        <Route path="/lorem" element={<Lorem />} />
       </Routes>
     </>
   );
