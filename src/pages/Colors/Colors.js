@@ -31,7 +31,7 @@ export default function Colors() {
         dark: false,
       });
     });
-  grid.push({ id: 10, color: "#f15025", saturation: "0", dark: false });
+  grid.push({ id: 10, color: currentColor, saturation: "0", dark: false });
   color.shades().forEach((tint, index) => {
     grid.push({
       id: index + 11,
@@ -54,7 +54,7 @@ export default function Colors() {
               value={hexCode}
               onChange={handleChange}
               required
-              pattern="/#([a-f0-9]){6}/i"
+              pattern="#([a-f0-9]){6}"
               placeholder="#f15025"
             />
           </label>
