@@ -6,6 +6,7 @@ import Tabs from "./Tabs/Tabs";
 import Tours from "./Tours/Tours";
 import Slider from "./Slider/Slider";
 import Lorem from "./Lorem/Lorem";
+import Colors from "./Colors/Colors";
 
 export {
   Accordion,
@@ -16,4 +17,5 @@ export {
   Tours,
   Slider,
   Lorem,
+  Colors,
 };

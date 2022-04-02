@@ -9,6 +9,7 @@ import {
   Tabs,
   Slider,
   Lorem,
+  Colors,
 } from "./pages/index";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/tabs" element={<Tabs />} />
         <Route path="/slider" element={<Slider />} />
         <Route path="/lorem" element={<Lorem />} />
+        <Route path="/colors" element={<Colors />} />
       </Routes>
     </>
   );

@@ -1,0 +1,21 @@
+.container form {
+  padding: 1em 1.25em;
+  font-size: 1em;
+  font-weight: 600;
+  display: flex;
+  gap: 0.5em;
+  background-color: whitesmoke;
+}
+
+@media (min-width: 800px) {
+  .container form {
+    font-size: 1.5em;
+  }
+}
+
+.colorGrid {
+  min-height: calc(100vh - 86px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}

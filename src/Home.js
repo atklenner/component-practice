@@ -11,6 +11,7 @@ export default function Home() {
       <Link to="/tabs">Tabs</Link>
       <Link to="/slider">Slider</Link>
       <Link to="/lorem">Lorem</Link>
+      <Link to="/colors">Colors</Link>
     </>
   );
 }
