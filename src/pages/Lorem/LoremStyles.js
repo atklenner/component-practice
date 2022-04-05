@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  background-color: lightblue;
 `;
 
 export const Container = styled.div`
@@ -43,7 +43,8 @@ export const Form = styled.form`
   button {
     border: none;
     margin-left: 0.5em;
-    background-color: lightblue;
+    background-color: blueviolet;
+    color: whitesmoke;
     text-transform: uppercase;
     border-radius: 5px;
     padding: 0.5em 0.75em;
@@ -51,6 +52,7 @@ export const Form = styled.form`
 
   button:hover {
     background-color: palegreen;
+    color: black;
   }
 `;
 

@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: lightblue;
 }
 
 .container {
@@ -23,6 +24,7 @@
   box-shadow: 0 0 10px lightgray;
   padding: 2em;
   border-radius: 10px;
+  background-color: whitesmoke;
 }
 
 .image {

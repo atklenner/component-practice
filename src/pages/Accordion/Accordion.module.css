@@ -10,6 +10,7 @@
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
+  gap: 2em;
   justify-content: space-between;
   width: 90%;
   max-width: 920px;
@@ -22,7 +23,7 @@
   font-size: 1.25rem;
   font-weight: 300;
   text-align: left;
-  margin-top: 0;
+  margin: 0;
 }
 
 @media (min-width: 800px) {

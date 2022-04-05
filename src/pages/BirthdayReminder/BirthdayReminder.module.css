@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: pink;
 }
 
 .container {
@@ -11,6 +12,7 @@
   width: 90%;
   padding: 2em;
   box-shadow: 0 0 10px lightgray;
+  background-color: whitesmoke;
   border-radius: 10px;
 }
 
