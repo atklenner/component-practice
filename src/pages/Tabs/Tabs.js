@@ -14,6 +14,7 @@ import {
 } from "./TabsStyle";
 import { data } from "./data";
 import { useState } from "react";
+import { FaAngleDoubleRight } from "react-icons/fa";
 
 // https://course-api.com/react-tabs-project
 
@@ -32,7 +33,11 @@ export default function Tabs() {
         <TabContainer>
           {jobs.map((job) => {
             return (
-              <Tab key={job.id} onClick={() => handleClick(job.company)}>
+              <Tab
+                key={job.id}
+                onClick={() => handleClick(job.company)}
+                selected={job.company === currentJob.company}
+              >
                 {job.company}
               </Tab>
             );
@@ -44,16 +49,19 @@ export default function Tabs() {
             <Company>{currentJob.company}</Company>
             <Dates>{currentJob.dates}</Dates>
           </JobInfo>
-          {currentJob.duties.map((duty) => {
+          {currentJob.duties.map((duty, index) => {
             return (
-              <Duty>
+              <Duty key={index}>
+                <span>
+                  <FaAngleDoubleRight />
+                </span>
                 <p>{duty}</p>
               </Duty>
             );
           })}
         </Info>
-        <InfoButton>More Info</InfoButton>
       </Container>
+      <InfoButton>More Info</InfoButton>
     </Wrapper>
   );
 }
