@@ -11,6 +11,7 @@ import {
   Lorem,
   Colors,
   Grocery,
+  Navbar,
 } from "./pages/index";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/lorem" element={<Lorem />} />
         <Route path="/colors" element={<Colors />} />
         <Route path="/grocery" element={<Grocery />} />
+        <Route path="/navbar" element={<Navbar />} />
       </Routes>
     </>
   );

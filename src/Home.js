@@ -15,6 +15,7 @@ export default function Home() {
         <Link to="/lorem">Lorem</Link>
         <Link to="/colors">Colors</Link>
         <Link to="/grocery">Grocery</Link>
+        <Link to="/navbar">Navbar</Link>
       </div>
     </div>
   );
