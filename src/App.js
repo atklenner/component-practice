@@ -10,6 +10,7 @@ import {
   Slider,
   Lorem,
   Colors,
+  Grocery,
 } from "./pages/index";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/slider" element={<Slider />} />
         <Route path="/lorem" element={<Lorem />} />
         <Route path="/colors" element={<Colors />} />
+        <Route path="/grocery" element={<Grocery />} />
       </Routes>
     </>
   );

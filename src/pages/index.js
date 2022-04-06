@@ -7,6 +7,7 @@ import Tours from "./Tours/Tours";
 import Slider from "./Slider/Slider";
 import Lorem from "./Lorem/Lorem";
 import Colors from "./Colors/Colors";
+import Grocery from "./Grocery/Grocery";
 
 export {
   Accordion,
@@ -18,4 +19,5 @@ export {
   Slider,
   Lorem,
   Colors,
+  Grocery,
 };

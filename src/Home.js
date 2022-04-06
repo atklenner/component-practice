@@ -12,6 +12,7 @@ export default function Home() {
       <Link to="/slider">Slider</Link>
       <Link to="/lorem">Lorem</Link>
       <Link to="/colors">Colors</Link>
+      <Link to="/grocery">Grocery</Link>
     </>
   );
 }
