@@ -1,0 +1,23 @@
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin-bottom: 0.75em;
+}
+
+.menuItem {
+  text-decoration: none;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  gap: 0.5em;
+  padding: 0;
+  justify-content: space-between;
+}
