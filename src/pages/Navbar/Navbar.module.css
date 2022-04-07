@@ -1,3 +1,69 @@
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25em 1em;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.title {
+  margin: 0.25em;
+}
+
+.pageLinks,
+.socialLinks {
+  display: none;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburgerBtn {
+  border: none;
+  background-color: transparent;
+}
+
+.linksDropdown {
+  padding-left: 1.5em;
+  overflow: hidden;
+  animation: slide-in 1s;
+}
+
+@keyframes slide-in {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 200px;
+  }
+}
+
+.dropdownLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdownLinks > * {
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 700px) {
+  .pageLinks,
+  .socialLinks {
+    display: flex;
+    gap: 1em;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .linksDropdown {
+    display: none;
+  }
 }
