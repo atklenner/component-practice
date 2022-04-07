@@ -12,6 +12,7 @@ import {
   Colors,
   Grocery,
   Navbar,
+  Sidebar,
 } from "./pages/index";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/colors" element={<Colors />} />
         <Route path="/grocery" element={<Grocery />} />
         <Route path="/navbar" element={<Navbar />} />
+        <Route path="/sidebar" element={<Sidebar />} />
       </Routes>
     </>
   );

@@ -9,6 +9,7 @@ import Lorem from "./Lorem/Lorem";
 import Colors from "./Colors/Colors";
 import Grocery from "./Grocery/Grocery";
 import Navbar from "./Navbar/Navbar";
+import Sidebar from "./SidebarModal/Sidebar";
 
 export {
   Accordion,
@@ -22,4 +23,5 @@ export {
   Colors,
   Grocery,
   Navbar,
+  Sidebar,
 };
