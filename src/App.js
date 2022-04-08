@@ -13,6 +13,7 @@ import {
   Grocery,
   Navbar,
   Sidebar,
+  Cart,
 } from "./pages/index";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/grocery" element={<Grocery />} />
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
   );

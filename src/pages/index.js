@@ -10,6 +10,7 @@ import Colors from "./Colors/Colors";
 import Grocery from "./Grocery/Grocery";
 import Navbar from "./Navbar/Navbar";
 import Sidebar from "./SidebarModal/Sidebar";
+import Cart from "./Cart/Cart";
 
 export {
   Accordion,
@@ -24,4 +25,5 @@ export {
   Grocery,
   Navbar,
   Sidebar,
+  Cart,
 };
