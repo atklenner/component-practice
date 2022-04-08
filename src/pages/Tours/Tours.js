@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Loading from "./components/Loading";
 import Tour from "./components/Tour";
+import styles from "./Tours.module.css";
 
 export default function Tours() {
   const [locations, setLocations] = useState([]);
@@ -30,13 +31,13 @@ export default function Tours() {
   }
 
   return (
-    <div className="container">
+    <div className={styles.wrapper}>
       {isLoading ? (
         <Loading />
       ) : (
-        <div className="container">
+        <div className={styles.container}>
           <div>
-            <h1 className="title">
+            <h1 className={styles.title}>
               {locations.length === 0 ? "No More Tours" : "Our Tours"}
             </h1>
           </div>
