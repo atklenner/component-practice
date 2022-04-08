@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemImage {
+  height: 80px;
+}
+
+.itemInfo {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,28 @@
+.cart {
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+}
+
+.cartTitle {
+  text-align: center;
+}
+
+.cartTotal {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  font-weight: 600;
+}
+
+.clearBtn {
+  display: block;
+  margin: auto;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0.25em 1em;
+}
