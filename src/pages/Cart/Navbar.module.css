@@ -1,5 +1,8 @@
 .header {
   width: 100%;
+  background-color: lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 1em;
 }
 
 .container {

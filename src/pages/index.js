@@ -10,7 +10,7 @@ import Colors from "./Colors/Colors";
 import Grocery from "./Grocery/Grocery";
 import Navbar from "./Navbar/Navbar";
 import Sidebar from "./SidebarModal/Sidebar";
-import Cart from "./Cart/Cart";
+import Cart from "./Cart/CartApp";
 
 export {
   Accordion,
