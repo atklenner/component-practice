@@ -12,6 +12,7 @@ import Navbar from "./Navbar/Navbar";
 import Sidebar from "./SidebarModal/Sidebar";
 import Cart from "./Cart/CartApp";
 import Cocktails from "./Cocktails/Cocktails";
+import Random from "./Random/Random";
 
 export {
   Accordion,
@@ -28,4 +29,5 @@ export {
   Sidebar,
   Cart,
   Cocktails,
+  Random,
 };
