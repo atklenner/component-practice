@@ -16,6 +16,7 @@ import {
   Cart,
   Cocktails,
   Random,
+  Pagination,
 } from "./pages/index";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/cart" element={<Cart />} />
         <Route path="/cocktails/*" element={<Cocktails />} />
         <Route path="/random" element={<Random />} />
+        <Route path="/pagination" element={<Pagination />} />
       </Routes>
     </>
   );

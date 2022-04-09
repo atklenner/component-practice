@@ -20,6 +20,7 @@ export default function Home() {
         <Link to="/cart">Cart</Link>
         <Link to="/cocktails">Cocktails</Link>
         <Link to="/random">Random</Link>
+        <Link to="/pagination">Pagination</Link>
       </div>
     </div>
   );

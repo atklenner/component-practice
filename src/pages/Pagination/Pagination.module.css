@@ -1,0 +1,46 @@
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+
+.followers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3em;
+}
+
+.follower {
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.follower__image {
+  object-fit: cover;
+  border-radius: 1000px;
+  width: 100%;
+}
+
+.follower__link,
+.btn {
+  color: whitesmoke;
+  background-color: rgb(16, 42, 66);
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0;
+}

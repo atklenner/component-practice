@@ -13,6 +13,7 @@ import Sidebar from "./SidebarModal/Sidebar";
 import Cart from "./Cart/CartApp";
 import Cocktails from "./Cocktails/Cocktails";
 import Random from "./Random/Random";
+import Pagination from "./Pagination/Pagination";
 
 export {
   Accordion,
@@ -30,4 +31,5 @@ export {
   Cart,
   Cocktails,
   Random,
+  Pagination,
 };
