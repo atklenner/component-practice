@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react";
 
-const URL = "www.thecocktaildb.com/api/json/v1/1/search.php?f=";
+const URL = "";
 
 const CocktailContext = createContext();
 
@@ -12,10 +12,35 @@ export function CocktailContextProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // fetch(URL + searchTerm)
-    //   .then((res) => res.json())
-    //   .then((data) => console.log(data));
-    console.log(searchTerm);
+    setLoading(true);
+    async function getCocktails() {
+      try {
+        const res = await fetch(
+          `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${searchTerm}`
+        );
+        const data = await res.json();
+        if (data.drinks) {
+          setCocktails(
+            data.drinks.map((item) => {
+              const { idDrink, strDrink, strDrinkThumb, strIngredient1 } = item;
+
+              return {
+                id: idDrink,
+                name: strDrink,
+                image: strDrinkThumb,
+                info: strIngredient1,
+              };
+            })
+          );
+        } else {
+          setCocktails([]);
+        }
+      } catch (error) {
+        console.error(error);
+      }
+      setLoading(false);
+    }
+    getCocktails();
   }, [searchTerm]);
 
   return (

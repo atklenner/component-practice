@@ -1,0 +1,35 @@
+.title {
+  text-align: center;
+}
+
+.drinkContainer {
+  margin: auto;
+  display: grid;
+  max-width: 1300px;
+  width: 90%;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2em;
+}
+
+.drink {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}
+
+.drink__image {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.drink__info {
+  padding: 2em;
+}
+
+.drink__name,
+.drink__base {
+  color: black;
+  margin: 0;
+}
