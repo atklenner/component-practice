@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import styles from "../Styles/SingleCocktail.module.css";
 
 export default function SingleCocktail() {
@@ -72,7 +71,7 @@ export default function SingleCocktail() {
   }, [id]);
 
   return isLoading ? (
-    <h1>Loading</h1>
+    <h1 className={styles.title}>Loading</h1>
   ) : (
     <section>
       <h2 className={styles.title}>{cocktail.name}</h2>
