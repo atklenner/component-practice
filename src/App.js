@@ -35,7 +35,7 @@ function App() {
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/cocktails" element={<Cocktails />} />
+        <Route path="/cocktails/*" element={<Cocktails />} />
       </Routes>
     </>
   );

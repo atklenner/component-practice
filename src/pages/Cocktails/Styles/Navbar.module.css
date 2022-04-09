@@ -1,0 +1,32 @@
+.container {
+  background-color: lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+}
+
+.linkList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  color: whitesmoke;
+}
