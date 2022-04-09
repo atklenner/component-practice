@@ -11,6 +11,7 @@ import Grocery from "./Grocery/Grocery";
 import Navbar from "./Navbar/Navbar";
 import Sidebar from "./SidebarModal/Sidebar";
 import Cart from "./Cart/CartApp";
+import Cocktails from "./Cocktails/Cocktails";
 
 export {
   Accordion,
@@ -26,4 +27,5 @@ export {
   Navbar,
   Sidebar,
   Cart,
+  Cocktails,
 };

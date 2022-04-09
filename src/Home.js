@@ -18,6 +18,7 @@ export default function Home() {
         <Link to="/navbar">Navbar</Link>
         <Link to="/sidebar">Sidebar</Link>
         <Link to="/cart">Cart</Link>
+        <Link to="/cocktails">Cocktails</Link>
       </div>
     </div>
   );
